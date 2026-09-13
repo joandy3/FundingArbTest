@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Secrets / local config — never commit real keys
+.env
+.env.*
+*.key
+
+# OS / editor cruft
+.DS_Store
+.vscode/
+.idea/
